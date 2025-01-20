@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="home.css">
+  </head>
+  <body>
+    <header>
+      <input type ="checkbox" name ="" id ="chk1">
+      <div class="logo"><h1>BookMyTicket</h1></div>
+          <ul>
+              <li><a href="./home.html">Home</a></li>
+              <li><a href="./movie.html">Movies</a></li>
+              <li><a href="./trailer.html">Trailers</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+              <li><button class="click" onclick="document.location='file:/project%202/login.html'">LOGIN</button> </li>
+          </ul>
+          <div class="menu">
+              <label for="chk1">
+                  <i class="fa fa-bars"></i>
+              </label>
+          </div>
+  </header>
+    <div class="container">
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            dolorum adipisci recusandae praesentium dicta!
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="images/location.png" class="icon" alt="" />
+              <p>LOREM</p>
+            </div>
+            <div class="information">
+              <img src="images/email.png" class="icon" alt="" />
+              <p>contact@bookmyticket.com</p>
+            </div>
+            <div class="information">
+              <img src="images/phone.png" class="icon" />
+              <p>123-456-789</p>
+            </div>
+          </div>
+         </div>
+
+        <div class="contact-form">
+          <form action="" autocomplete="off">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" placeholder="Username" />
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" placeholder="Email"/>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" placeholder="Phone" />
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input" placeholder="Message"></textarea>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
